@@ -39,7 +39,7 @@ router.post("/create-shop", catchAsyncErrors(async (req, res, next) => {
 
     const activationToken = createActivationToken(seller);
 
-    const activationUrl = `https://i-solution-lab.vercel.app/seller/activation/${activationToken}`;
+    const activationUrl = `https://isolutiontraders.vercel.app/seller/activation/${activationToken}`;
 
     try {
       await sendMail({
