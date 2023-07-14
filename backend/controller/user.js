@@ -152,6 +152,19 @@ router.get(
   })
 );
 
+// log out user
+router.get("/logout", (req, res) => {
+  res.clearCookie("token"); // Clear the token cookie
+
+  // Perform any additional logout operations, such as invalidating the token or session
+  // For example, if you are using JWT, you may want to add the token to a blacklist to prevent further use
+
+  res.status(200).json({
+    success: true,
+    message: "Logout successful!",
+  });
+});
+
 // update user info
 router.put(
   "/update-user-info",
