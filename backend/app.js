@@ -22,6 +22,15 @@ if (process.env.NODE_ENV !== "PRODUCTION") {
   });
 }
 
+// Middleware to set SameSite=None and Secure attributes for cookies
+app.use((req, res, next) => {
+  res.cookie("authCookie", "example", {
+    sameSite: "none",
+    secure: true,
+  });
+  next();
+});
+
 // import routes
 const user = require("./controller/user");
 const shop = require("./controller/shop");
