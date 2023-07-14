@@ -191,7 +191,7 @@ export const navItems = [
   export const categoriesData = [
     {
       id: 1,
-      title: "Batteries",
+      title: "Iphone Batteries",
       subTitle: "",
       image_Url:
         "https://cdn.shopify.com/s/files/1/1706/9177/products/NEWAppleMacbookProwithM1ProChip14InchLaptop2021ModelMKGQ3LL_A_16GB_1TBSSD_custommacbd.jpg?v=1659592838",
@@ -205,7 +205,7 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "Android LCD",
+      title: "Iphone LCD",
       subTitle: "",
       image_Url:
         "https://img.freepik.com/free-vector/ordering-goods-online-internet-store-online-shopping-niche-e-commerce-website-mother-buying-babies-clothes-footwear-toys-infant-accessories_335657-2345.jpg?w=2000",
@@ -233,7 +233,7 @@ export const navItems = [
     },
     {
       id: 7,
-      title: "Iphone LCD",
+      title: "Other Mobiles LCD",
       subTitle: "",
       image_Url: "https://cdn.openpr.com/T/c/Tc15444071_g.jpg",
     },
@@ -246,7 +246,7 @@ export const navItems = [
     },
     {
       id: 9,
-      title: "Iphone LCD",
+      title: "Iphone Boards",
       subTitle: "",
       image_Url:
         "https://static.vecteezy.com/system/resources/previews/011/996/555/original/3d-black-headphone-illustration-ecommerce-icon-png.png",
