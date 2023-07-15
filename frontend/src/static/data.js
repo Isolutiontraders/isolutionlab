@@ -235,7 +235,7 @@ export const navItems = [
       id: 7,
       title: "Other Mobiles LCD",
       subTitle: "",
-      image_Url: "https://i.ibb.co/p3QsBBt/android-lcd.jpg",
+      image_Url: "https://cdn.openpr.com/T/c/Tc15444071_g.jpg",
     },
    
     {
