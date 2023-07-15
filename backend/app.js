@@ -6,9 +6,10 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 app.use(cors({
-  origin: ['https://isolutiontraders.vercel.app'],
+  origin: "https://isolutiontraders.vercel.app",
   credentials: true,
-  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+  allowedHeaders: ["Content-Type", "Authorization"],
 }));
 
 app.use(express.json());
@@ -24,12 +25,15 @@ if (process.env.NODE_ENV !== "PRODUCTION") {
 
 // Middleware to set SameSite=None and Secure attributes for cookies
 app.use((req, res, next) => {
-  res.cookie("authCookie", "example", {
+  res.cookie("token", "example", {
     sameSite: "none",
     secure: true,
   });
   next();
 });
+
+// Enable Trust Proxy
+app.set("trust proxy", 1);
 
 // import routes
 const user = require("./controller/user");
@@ -54,7 +58,7 @@ app.use("/api/v2/coupon", coupon);
 app.use("/api/v2/payment", payment);
 app.use("/api/v2/withdraw", withdraw);
 
-// it's for ErrorHandling
+// Error handling middleware
 app.use(ErrorHandler);
 
 module.exports = app;
