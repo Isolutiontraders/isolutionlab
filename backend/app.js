@@ -12,7 +12,7 @@ app.use(cors({
 }));
 
 app.use(express.json());
-app.use(cookieParser("your-secret-key", {
+app.use(cookieParser(process.env.JWT_SECRET_KEY, {
   sameSite: "none",
   secure: true
 }));
