@@ -28,8 +28,6 @@ const AdminSideBar = ({ active }) => {
           </h5>
         </Link>
       </div>
-
-
       <Navbar active={activeHeading} />
               <div className={`${styles.button} ml-4 !rounded-[4px]`}>
                 <Link to="/shop-create">
