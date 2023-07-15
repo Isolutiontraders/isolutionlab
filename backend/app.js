@@ -4,6 +4,7 @@ const app = express();
 const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
 const cors = require("cors");
+const { cookieSameSiteNone } = require('cookie-same-site-none');
 
 app.use(cors({
   origin: "https://isolutiontraders.vercel.app",
@@ -11,6 +12,7 @@ app.use(cors({
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   allowedHeaders: ["Content-Type", "Authorization"],
 }));
+app.use(cookieSameSiteNone);
 
 app.use(express.json());
 app.use(cookieParser());
