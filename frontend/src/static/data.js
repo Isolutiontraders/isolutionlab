@@ -194,42 +194,42 @@ export const navItems = [
       title: "Iphone Batteries",
       subTitle: "",
       image_Url:
-        "https://cdn.shopify.com/s/files/1/1706/9177/products/NEWAppleMacbookProwithM1ProChip14InchLaptop2021ModelMKGQ3LL_A_16GB_1TBSSD_custommacbd.jpg?v=1659592838",
+        "https://i.ibb.co/f4vM5B5/3840-iphone-14-pro-original-battery.png",
     },
     {
       id: 2,
       title: "Mobile Camera",
       subTitle: "",
       image_Url:
-        "https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/2021-07/kosme1.png",
+        "https://i.ibb.co/4jbCc4x/iphone-camera.jpg",
     },
     {
       id: 3,
       title: "Iphone LCD",
       subTitle: "",
       image_Url:
-        "https://img.freepik.com/free-vector/ordering-goods-online-internet-store-online-shopping-niche-e-commerce-website-mother-buying-babies-clothes-footwear-toys-infant-accessories_335657-2345.jpg?w=2000",
+        "https://i.ibb.co/fMqyvBK/iphone-lcd.png",
     },
     {
       id: 4,
       title: "Charging Strips",
       subTitle: "",
       image_Url:
-        "https://www.shift4shop.com/2015/images/industries/clothing/clothing-apparel.png",
+        "https://i.ibb.co/Cm5Sb6N/iphone-charging-strip.jpg",
     },
     {
       id: 5,
       title: "Mobile Bodies",
       subTitle: "",
       image_Url:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvBQPQMVNRd6TtDkGs2dCri0Y-rxKkFOiEWw&usqp=CAU",
+        "https://i.ibb.co/tb1xCMv/iphone-body.jpg",
     },
     {
       id: 6,
       title: "Iphone IC",
       subTitle: "",
       image_Url:
-        "https://securecdn.pymnts.com/wp-content/uploads/2014/11/Gifts-Photo-700x489.jpg",
+        "https://i.ibb.co/hyt6v0V/for-iphone-14-pro-max-nand-flash-memory-chip-replacement-china-phonefix.webp",
     },
     {
       id: 7,
@@ -243,15 +243,9 @@ export const navItems = [
       title: "Iphone Boards",
       subTitle: "",
       image_Url:
-        "https://static.vecteezy.com/system/resources/previews/011/996/555/original/3d-black-headphone-illustration-ecommerce-icon-png.png",
+        "https://i.ibb.co/g6swGCf/iphone-boards.jpg",
     },
-    {
-      id: 10,
-      title: "Others",
-      subTitle: "",
-      image_Url:
-        "https://searchspring.com/wp-content/uploads/2022/10/Hero-Image-Platform-Others-2.png",
-    },
+   
   ];
   
   // product Data
@@ -279,4 +273,8 @@ export const navItems = [
       name: "Live chat",
     },
   ];
+  
+
+
+
   
