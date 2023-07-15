@@ -1,4 +1,3 @@
-const { cookieSameSiteNone } = require('cookie-same-site-none');
 const express = require("express");
 const ErrorHandler = require("./middleware/error");
 const app = express();
@@ -12,7 +11,6 @@ app.use(cors({
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
 }));
 
-app.use(cookieSameSiteNone);
 app.use(express.json());
 app.use(cookieParser("your-secret-key", {
   sameSite: "none",
@@ -63,6 +61,3 @@ app.use("/api/v2/withdraw", withdraw);
 app.use(ErrorHandler);
 
 module.exports = app;
-
-// ...
-
