@@ -29,7 +29,15 @@ const AdminSideBar = ({ active }) => {
         </Link>
       </div>
 
-      
+
+      <Navbar active={activeHeading} />
+              <div className={`${styles.button} ml-4 !rounded-[4px]`}>
+                <Link to="/shop-create">
+                  <h1 className="text-[#fff] flex items-center">
+                    Become Seller <IoIosArrowForward className="ml-1" />
+                  </h1>
+                </Link>
+              </div>
 
       <div className="w-full flex items-center p-4">
         <Link to="/admin-orders" className="w-full flex items-center">
